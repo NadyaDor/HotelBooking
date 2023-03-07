@@ -1,0 +1,8 @@
+.footer__columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer__columns:first-child {
+    grid-template-columns: 1fr;
+}

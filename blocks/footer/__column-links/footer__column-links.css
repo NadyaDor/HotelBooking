@@ -1,0 +1,8 @@
+.footer__column-links {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: 24px;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
