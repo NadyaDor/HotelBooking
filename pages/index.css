@@ -1,10 +1,11 @@
-@import url(../vendor/normalize.css);
+/* ШРИФТЫ */
 @import url(../fonts/fonts.css);
+/* PAGE */
 @import url(../blocks/page/page.css);
 @import url(../blocks/link/link.css);
 
 
-
+/* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 /* @import url(../blocks/footer/__column/footer__column.css); */
