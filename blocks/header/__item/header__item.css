@@ -3,4 +3,11 @@
   font-size: 16px;
   line-height: 1.2;
   color: #192252;
+  opacity: 1;
+  transition: opacity .5 ease-in;
+  
+}
+.header__item:hover{
+  cursor: pointer;
+  opacity: .6;
 }
