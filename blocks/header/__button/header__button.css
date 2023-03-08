@@ -1,20 +1,21 @@
-.header__button{
-border-radius: 4px;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.2;
-color: #FFFFFF;
-background: #0E1734;
-text-decoration: none;
-/* padding: .8em 1em calc(.8em + 3px); */
-height: 47px;
-width: 136px;
-transition: .2s;
+.header__button {
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  background: #0E1734;
+  text-decoration: none;
+  padding: 14px 16px;
+  transition: .2s;
+  /* border: none; */
 }
-.header__button:hover{
+
+.header__button:hover {
   background: rgb(29, 144, 198)
 }
-.header__button:active{
+
+.header__button:active {
   background: #fff;
   color: #0E1734;
 }
