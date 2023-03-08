@@ -1,64 +1,79 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../HotelBooking/vendor/normalize.css">
-    <link rel="stylesheet" href="../HotelBooking/pages/index.css">
-    <title>HotelBooking</title>
-    <link rel="stylesheet" href="pages/index.css">
-  </head>
 
-  <body class="page">
-    <div class="header">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../HotelBooking/vendor/normalize.css">
+  <link rel="stylesheet" href="../HotelBooking/pages/index.css">
+  <title>HotelBooking</title>
+  <link rel="stylesheet" href="pages/index.css">
+</head>
 
+<body class="page">
+  <div class="header">
+    <h2 class="header__logo">HotelBooking</h2>
+    <ul class="header__list">
+      <li class="header__item">Дом</li>
+      <li class="header__item">Бронирование</li>
+      <li class="header__item">Контакты</li>
+    </ul>
+    <input class="header__button" type="button" value="Бронировать">
+  </div>
+  <footer class="footer">
+
+    <div class="footer__columns">
+      <div> <!--class="footer__column"-->
+        <h2 class="footer__logo">HotelBooking</h2>
+        <p class="footer__logo-text">Загородный отдых с<br>замечательными<br>видами</p>
+        <ul class="footer__socials">
+          <li><a class="footer__social link" href="#" target="_blank"><img class="footer__social-icon"
+                src="images/tv.svg" alt="здесь логотип Твиттер"></a></li>
+          <li><a class="footer__social link" href="#" target="_blank"><img class="footer__social-icon"
+                src="images/vk.svg" alt="здесь логотип ВКонтакте"></a></li>
+        </ul>
+      </div>
     </div>
-    <footer class="footer">
 
-      <div class="footer__columns">
-        <div> <!--class="footer__column"-->
-          <h2 class="footer__logo">HotelBooking</h2>
-          <p class="footer__logo-text">Загородный отдых с<br>замечательными<br>видами</p>
-          <ul class="footer__socials">
-            <li><a class="footer__social link" href="#" target="_blank"><img class="footer__social-icon" src="images/tv.svg" alt="здесь логотип Твиттер"></a></li>
-            <li><a class="footer__social link" href="#" target="_blank"><img class="footer__social-icon" src="images/vk.svg" alt="здесь логотип ВКонтакте"></a></li>
+    <div class="footer__columns">
+      <div> <!--class="footer__column"-->
+        <h3 class="footer__column-heading">Дома</h3>
+        <nav>
+          <ul class="footer__column-links">
+            <li><a class="footer__column-link link" href="#" target="_blank">Маленький&nbspдомик </a></li>
+            <li><a class="footer__column-link link" href="#" target="_blank">Большой&nbspдом</a></li>
+            <li><a class="footer__column-link link" href="#" target="_blank">Двухэтажный&nbspдом</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
 
-      <div class="footer__columns">
-        <div> <!--class="footer__column"-->
-          <h3 class="footer__column-heading">Дома</h3>
-          <nav>
-            <ul class="footer__column-links">
-              <li><a class="footer__column-link link" href="#" target="_blank">Маленький&nbspдомик </a></li>
-              <li><a class="footer__column-link link" href="#" target="_blank">Большой&nbspдом</a></li>
-              <li><a class="footer__column-link link" href="#" target="_blank">Двухэтажный&nbspдом</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div> <!--class="footer__column"-->
-          <h3 class="footer__column-heading">Бронирование</h3>
-          <nav>
-            <ul class="footer__column-links">
-              <li><a class="footer__column-link link" href="#" target="_blank">Оформление</a></li>
-              <li><a class="footer__column-link link" href="#" target="_blank">Оплата</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div> <!--class="footer__column"-->
-          <h3 class="footer__column-heading">Контакты</h3>
-          <nav>
-            <ul class="footer__column-links">
-              <li><p class="footer__column-link">8-800-555-35-35</p></li>
-              <li><p class="footer__column-link">email@yandex.ru</p></li>
-              <li><p class="footer__column-link">Деревня Кимжа, Архангельская&nbspобласть</p></li>
-            </ul>
-          </nav>
-        </div>
+      <div> <!--class="footer__column"-->
+        <h3 class="footer__column-heading">Бронирование</h3>
+        <nav>
+          <ul class="footer__column-links">
+            <li><a class="footer__column-link link" href="#" target="_blank">Оформление</a></li>
+            <li><a class="footer__column-link link" href="#" target="_blank">Оплата</a></li>
+          </ul>
+        </nav>
       </div>
-      
-    </footer>
-  </body>
+
+      <div> <!--class="footer__column"-->
+        <h3 class="footer__column-heading">Контакты</h3>
+        <nav>
+          <ul class="footer__column-links">
+            <li>
+              <p class="footer__column-link">8-800-555-35-35</p>
+            </li>
+            <li>
+              <p class="footer__column-link">email@yandex.ru</p>
+            </li>
+            <li>
+              <p class="footer__column-link">Деревня Кимжа, Архангельская&nbspобласть</p>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </footer>
+</body>
