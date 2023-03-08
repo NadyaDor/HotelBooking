@@ -9,10 +9,10 @@
   transition: .2s;
   padding: 16px 32px;
   }
-  .intro__button:hover{
+  .lead__button:hover{
     background: rgb(29, 144, 198)
   }
-  .intro__button:active{
+  .lead__button:active{
     background: #fff;
     color: #0E1734;
   }

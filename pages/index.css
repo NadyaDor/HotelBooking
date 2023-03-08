@@ -19,6 +19,13 @@
 @import url(../blocks/lead/__button/lead__button.css);
 @import url(../blocks/lead/__picture/lead__picture.css);
 @import url(../blocks/lead/__image/lead__image.css);
+/* DESCRIPTION */
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__info/description__info.css);
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__subtitle/description__subtitle.css);
+@import url(../blocks/description/__button/description__button.css);
+@import url(../blocks/description/__image/description__image.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
