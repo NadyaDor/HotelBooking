@@ -1,0 +1,10 @@
+.benefit{
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 126px;
+  row-gap: 32px;
+  width: calc(100% - 90px * 2);
+  margin: 160px auto 0;
+}

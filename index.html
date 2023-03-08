@@ -1,60 +1,119 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HotelBooking</title>
-    <link rel="stylesheet" href="pages/index.css">
-  </head>
 
-  <body class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../HotelBooking/vendor/normalize.css">
+  <link rel="stylesheet" href="../HotelBooking/pages/index.css">
+  <title>HotelBooking</title>
+  <link rel="stylesheet" href="pages/index.css">
+</head>
 
-    <footer class="footer">
+<body class="page">
+  <!-- HEADER -->
+  <div class="header">
+    <h2 class="header__logo">HotelBooking</h2>
+    <ul class="header__list">
+      <li class="header__item">Дом</li>
+      <li class="header__item">Бронирование</li>
+      <li class="header__item">Контакты</li>
+    </ul>
+    <input class="header__button" type="button" value="Бронировать">
+  </div>
+  <main class="content">
+    <section class="lead">
+      <div class="lead__discription">
+        <h2 class="lead__title">Аренда загородного дома для отдыха</h2>
+        <p class="lead__subtitle">Самые выгодные предложения по аренде коттеджей и загородных домов в Москве и области
+        </p>
+        <input class="lead__button" type="button" value="Бронирование">
+      </div>
+      <div class="lead__picture">
+        <img class="lead__image" src="../HotelBooking/images/meritt-thomas-u-Hb93V6IWI-unsplash 1.jpg" alt="Синий дом">
+        <img class="lead__image" src="../HotelBooking/images/meritt-thomas-u-Hb93V6IWI-unsplash 2.jpg" alt="Синий дом">
+        <img class="lead__image" src="../HotelBooking/images/meritt-thomas-u-Hb93V6IWI-unsplash 3.jpg" alt="Синий дом">
+      </div>
+    </section>
+    <section class="description">
+      <div class="description__info">
+        <h2 class="description__title">Уютный двухэтажный дом в норвежском стиле</h2>
+        <p class="description__subtitle">Просторные коттеджи с видом на лес полностью укомплектованы: кондиционер,
+          холодильник, посудомоечная машина, газовая плита, духовка, микроволновая печь, чайник, набор посуды и столовых
+          приборов. В каждом коттедже: стиральная машина, гладильная станция, сушилка для белья, фен. </p>
+        <input class="description__button" type="button" value="Подробнее">
+      </div>
+      <img class="description__image" src="../HotelBooking/images/image 13.jpg" alt="Коричневый дом">
+    </section>
+    <section class="benefit">
+      <div class="benefit__activities">
+        <h2 class="benefit__title">Активности</h2>
+        <p class="benefit__subtitle">К вашим услугам наши прекрасные повора, которые приготовят вкусную еду по
+          составленную для вас персональному меню.Также вы сможете воспользоваться СПА, тренажерным залом и прочими
+          услугами, доступными на нашей территории.</p>
+      </div>
+      <img class="benefit__image" src="../HotelBooking/images/image 21.jpg" alt="Застолье">
+      <div class="benefit__product">
+        <h2 class="benefit__title">100% Натуральные продукты</h2>
+        <p class="benefit__subtitle">При приготовлении наших блюд мы используем только свежие, полезные, натуральные
+          продукты.</p>
+      </div>
+      <img class="benefit__image" src="../HotelBooking/images/image 18.jpg" alt="Еда">
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__columns">
+      <div> <!--class="footer__column"-->
+        <h2 class="footer__logo">HotelBooking</h2>
+        <p class="footer__logo-text">Загородный отдых с<br>замечательными<br>видами</p>
+        <ul class="footer__socials">
+          <li><a class="footer__social link" href="#" target="_blank"><img class="footer__social-icon"
+                src="images/tv.svg" alt="здесь логотип Твиттер"></a></li>
+          <li><a class="footer__social link" href="#" target="_blank"><img class="footer__social-icon"
+                src="images/vk.svg" alt="здесь логотип ВКонтакте"></a></li>
+        </ul>
+      </div>
+    </div>
 
-      <div class="footer__columns">
-        <div> <!--class="footer__column"-->
-          <h2 class="footer__logo">HotelBooking</h2>
-          <p class="footer__logo-text">Загородный отдых с<br>замечательными<br>видами</p>
-          <ul class="footer__socials">
-            <li><a class="footer__social link" href="#" target="_blank"><img class="footer__social-icon" src="images/tv.svg" alt="здесь логотип Твиттер"></a></li>
-            <li><a class="footer__social link" href="#" target="_blank"><img class="footer__social-icon" src="images/vk.svg" alt="здесь логотип ВКонтакте"></a></li>
+    <div class="footer__columns">
+      <div> <!--class="footer__column"-->
+        <h3 class="footer__column-heading">Дома</h3>
+        <nav>
+          <ul class="footer__column-links">
+            <li><a class="footer__column-link link" href="#" target="_blank">Маленький&nbspдомик </a></li>
+            <li><a class="footer__column-link link" href="#" target="_blank">Большой&nbspдом</a></li>
+            <li><a class="footer__column-link link" href="#" target="_blank">Двухэтажный&nbspдом</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
 
-      <div class="footer__columns">
-        <div> <!--class="footer__column"-->
-          <h3 class="footer__column-heading">Дома</h3>
-          <nav>
-            <ul class="footer__column-links">
-              <li><a class="footer__column-link link" href="#" target="_blank">Маленький&nbspдомик </a></li>
-              <li><a class="footer__column-link link" href="#" target="_blank">Большой&nbspдом</a></li>
-              <li><a class="footer__column-link link" href="#" target="_blank">Двухэтажный&nbspдом</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div> <!--class="footer__column"-->
-          <h3 class="footer__column-heading">Бронирование</h3>
-          <nav>
-            <ul class="footer__column-links">
-              <li><a class="footer__column-link link" href="#" target="_blank">Оформление</a></li>
-              <li><a class="footer__column-link link" href="#" target="_blank">Оплата</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div> <!--class="footer__column"-->
-          <h3 class="footer__column-heading">Контакты</h3>
-          <nav>
-            <ul class="footer__column-links">
-              <li><p class="footer__column-link">8-800-555-35-35</p></li>
-              <li><p class="footer__column-link">email@yandex.ru</p></li>
-              <li><p class="footer__column-link">Деревня Кимжа, Архангельская&nbspобласть</p></li>
-            </ul>
-          </nav>
-        </div>
+      <div> <!--class="footer__column"-->
+        <h3 class="footer__column-heading">Бронирование</h3>
+        <nav>
+          <ul class="footer__column-links">
+            <li><a class="footer__column-link link" href="#" target="_blank">Оформление</a></li>
+            <li><a class="footer__column-link link" href="#" target="_blank">Оплата</a></li>
+          </ul>
+        </nav>
       </div>
-      
-    </footer>
-  </body>
+
+      <div> <!--class="footer__column"-->
+        <h3 class="footer__column-heading">Контакты</h3>
+        <nav>
+          <ul class="footer__column-links">
+            <li>
+              <p class="footer__column-link">8-800-555-35-35</p>
+            </li>
+            <li>
+              <p class="footer__column-link">email@yandex.ru</p>
+            </li>
+            <li>
+              <p class="footer__column-link">Деревня Кимжа, Архангельская&nbspобласть</p>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </footer>
+</body>

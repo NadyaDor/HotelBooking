@@ -1,0 +1,11 @@
+.header__list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  align-content: center;
+  column-gap: 36px;
+  margin: 0;
+  padding: 0;
+}

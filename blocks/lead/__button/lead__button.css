@@ -1,0 +1,18 @@
+.lead__button{
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  background: #0E1734;
+  text-decoration: none;
+  transition: .2s;
+  padding: 16px 32px;
+  }
+  .lead__button:hover{
+    background: rgb(29, 144, 198)
+  }
+  .lead__button:active{
+    background: #fff;
+    color: #0E1734;
+  }
