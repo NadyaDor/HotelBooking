@@ -1,8 +1,9 @@
 .header{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
+  grid-template-columns: auto auto 136px;
+  justify-content: space-between;
   align-items: center;
   /* width: calc(100% - 120px * 2); */
-  margin: 46px 0 auto;
+  /* margin: 46px 0 auto; */
+  padding: 46px 120px 35px 120px;
 }
