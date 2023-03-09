@@ -1,3 +1,11 @@
 .lead__discription {
-  width: 587px;
+  /* width: 587px; */
+  /* padding-top: 135px; */
+  display: grid;
+  height: 669px;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: auto;
+  grid-row: 3 148px;
+  /* align-items: start; */
+  align-content: start;
 }
