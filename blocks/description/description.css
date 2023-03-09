@@ -1,7 +1,12 @@
 .description {
-  display: flex;
+  /* display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
-  margin-top: 160px;
-  justify-content: space-around;
+  justify-content: space-between; */
+  /* margin-top: 160px; */
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  padding: 80px 226px 80px 120px;
+  gap: 126px;
+  align-items: center;
+  /* justify-content: space-around; */
 }

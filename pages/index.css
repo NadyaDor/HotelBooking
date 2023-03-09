@@ -33,6 +33,7 @@
 @import url(../blocks/benefit/__title/benefit__title.css);
 @import url(../blocks/benefit/__subtitle/benfefit__subtitle.css);
 @import url(../blocks/benefit/__image/benefit__image.css);
+@import url(../blocks/benefit/__card/benefit__card.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);

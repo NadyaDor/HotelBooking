@@ -1,0 +1,7 @@
+.benefit__card {
+  /* display: grid;
+  grid-template-rows: repeat(2, auto);
+  row-gap: 24px; */
+  /* align-items: center; */
+  align-content: center;
+}
