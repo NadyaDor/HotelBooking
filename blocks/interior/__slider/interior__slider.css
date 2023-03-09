@@ -33,7 +33,6 @@
   padding-bottom: 7%;
   background: #FAB047;
   border-radius: 50%;
-  transition: transform 1s;
   opacity: 1;
   animation-timing-function: ease-in-out;
   animation-duration: .3s;
