@@ -1,0 +1,9 @@
+.interior__tin-tack{
+  position: absolute;
+  bottom: 20px;
+  left: 550px;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  width:15%;
+}

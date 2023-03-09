@@ -34,6 +34,18 @@
 @import url(../blocks/benefit/__subtitle/benfefit__subtitle.css);
 @import url(../blocks/benefit/__image/benefit__image.css);
 @import url(../blocks/benefit/__card/benefit__card.css);
+/* INTERIOR */
+@import url(../blocks/interior/interior.css);
+@import url(../blocks/interior/__title/interior__title.css);
+@import url(../blocks/interior/__galary/interior__galary.css);
+@import url(../blocks/interior/__image/interior__image.css);
+@import url(../blocks/interior/__image/__image_size_l/interior__image_size_l.css);
+@import url(../blocks/interior/__image/__image_size_s/interior__image_size_s.css);
+@import url(../blocks/interior/__tin-tack/interior__tin-tack.css);
+@import url(../blocks/interior/__btn/interior__btn.css);
+@import url(../blocks/interior/__btn/__btn_active/interior__btn_active.css);
+@import url(../blocks/interior/__num/interior__num.css);
+@import url(../blocks/interior/__slider/interior__slider.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);

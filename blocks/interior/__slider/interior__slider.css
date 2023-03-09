@@ -1,0 +1,43 @@
+@keyframes one {
+
+  25% {
+    transform: scale(0.5);
+  }
+}
+
+@keyframes two {
+
+  25% {
+    transform: scale(0.5);
+  }
+}
+
+@keyframes three {
+
+  25% {
+    transform: scale(0.5);
+  }
+}
+
+@keyframes four {
+
+  25% {
+    transform: scale(0.5);
+  }
+}
+
+.interior__slider {
+  position: absolute;
+  left: 0%;
+  width: 7%;
+  padding-bottom: 7%;
+  background: #FAB047;
+  border-radius: 50%;
+  transition: transform 1s;
+  opacity: 1;
+  animation-timing-function: ease-in-out;
+  animation-duration: .3s;
+  animation-fill-mode: forwards;
+  transition: 0.2s left .05s ease-in-out;
+  z-index: 2;
+}
