@@ -1,0 +1,32 @@
+.choice__button {
+  width: 153px;
+  /* height: 19px; */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+
+
+  
+  border-radius: 4px;
+  
+ 
+ 
+  
+  background: #0E1734;
+  text-decoration: none;
+  /* transition: .2s; */
+  padding: 16px 32px;
+
+}
+
+.choice__button:hover{
+  background: rgb(29, 144, 198)
+}
+
+.choice__button:active{
+  background: #fff;
+  color: #0E1734;
+}

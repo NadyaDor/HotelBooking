@@ -1,0 +1,11 @@
+.reviews__review {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #848FAC;
+  max-width: 794px;
+  margin: 0;
+}

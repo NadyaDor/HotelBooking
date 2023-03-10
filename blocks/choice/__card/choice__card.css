@@ -1,0 +1,5 @@
+.choice__card {
+  display: grid;
+  grid-template-rows: 4,auto;
+  gap: 0;
+}

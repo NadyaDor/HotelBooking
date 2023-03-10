@@ -46,6 +46,23 @@
 @import url(../blocks/interior/__btn/__btn_active/interior__btn_active.css);
 @import url(../blocks/interior/__num/interior__num.css);
 @import url(../blocks/interior/__slider/interior__slider.css);
+/* CHOICE */
+@import url(../blocks/choice/choice.css);
+@import url(../blocks/choice/__title/choice__title.css);
+@import url(../blocks/choice/__subtitle/choice__subtitle.css);
+@import url(../blocks/choice/__button/choice__button.css);
+@import url(../blocks/choice/__cards/choice__cards.css);
+@import url(../blocks/choice/__card/choice__card.css);
+@import url(../blocks/choice/__photo/choice__photo.css);
+@import url(../blocks/choice/__name/choice__name.css);
+@import url(../blocks/choice/__description/choice__description.css);
+@import url(../blocks/choice/__link/choice__link.css);
+/* REWIEWS */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__photo/reviews__photo.css);
+@import url(../blocks/reviews/__review/reviews__review.css);
+@import url(../blocks/reviews/__name/reviews__name.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);

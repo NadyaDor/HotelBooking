@@ -1,5 +1,7 @@
-.interior{
+.choice {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 80px 120px;
+  align-items: center;
 }

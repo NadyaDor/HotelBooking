@@ -1,0 +1,10 @@
+.choice__description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  min-height: 81px;
+  margin: 0;
+}

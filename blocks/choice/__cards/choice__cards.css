@@ -1,0 +1,10 @@
+.choice__cards {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  /* padding-left: 0;
+  padding-top: 88px; */
+  padding: 88px 0 0;
+  margin: 0;
+}
