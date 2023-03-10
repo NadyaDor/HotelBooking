@@ -3,7 +3,40 @@
   grid-template-columns: auto auto 136px;
   justify-content: space-between;
   align-items: center;
-  /* width: calc(100% - 120px * 2); */
-  /* margin: 46px 0 auto; */
-  padding: 46px 120px 35px 120px;
+  padding: 46px 120px 35px;
+}
+
+@media screen and (max-width: 1280px) {
+  .header {
+    padding: 46px 60px 35px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 46px 20px 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header {
+    padding: 20px 0 20px;
+  }
 }

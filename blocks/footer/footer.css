@@ -4,5 +4,18 @@
   justify-content: space-between;
   max-height: 444px;
   background-color: #0B265A;
-  padding: 120px 120px 123px 120px;
+  padding: 120px 120px 123px;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    grid-template-columns: 30% 70%;
+    padding: 120px 60px 123px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 120px 20px 123px;
+  }
 }
