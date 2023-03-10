@@ -16,6 +16,20 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
+    grid-template-columns: 33% 67%;
     padding: 120px 20px 123px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    padding: 20px 0 20px;
   }
 }

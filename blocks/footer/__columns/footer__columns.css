@@ -6,3 +6,9 @@
 .footer__columns:first-child {
     grid-template-columns: 1fr;
 }
+
+@media screen and (max-width: 600px) {
+  .footer__columns {
+    grid-template-columns: repeat(1, auto)
+  }
+}
