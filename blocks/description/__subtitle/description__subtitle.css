@@ -1,9 +1,16 @@
 .description__subtitle {
-  font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   color: #848FAC;
-  width: 594px;
+  max-width: 584px;
   margin: 28px 0 17px;
+}
+
+@media screen and (max-width: 768px) {
+  .description__subtitle {
+    min-width: 310px;
+    max-width: 100%;
+    text-align: center;
+  }
 }

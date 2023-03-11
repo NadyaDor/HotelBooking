@@ -1,7 +1,30 @@
 .benefit__activities{
-  /* grid-column: 1/3;
-  grid-row: 1/2; */
   display: grid;
   grid-template-columns: repeat(2,auto);
   gap: 126px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .benefit__activities {
+    gap: 66px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .benefit__activities {
+    gap: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .benefit__activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .benefit__activities:last-child {
+    flex-direction: column-reverse;
+  }
 }

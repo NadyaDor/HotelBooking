@@ -1,5 +1,5 @@
 .choice__name {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -9,4 +9,10 @@
   padding: 32px 0 16px;
   margin: 0;
   text-align: left;
+}
+
+@media screen and (max-width: 815px) {
+  .choice__name {
+    padding: 16px 0;
+  }
 }

@@ -1,5 +1,4 @@
 .choice__description {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -7,4 +6,16 @@
   color: #848FAC;
   min-height: 81px;
   margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .choice__description {
+    min-height: 135px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .choice__description {
+    min-height: 20px;
+  }
 }

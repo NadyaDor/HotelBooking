@@ -9,12 +9,6 @@
   padding: 0;
 }
 
-@media screen and (max-width: 600px) {
-  .header__list {
-    column-gap: 80px;
-  }
-}
-
 @media screen and (max-width: 390px) {
   .header__list {
     column-gap: 20px;

@@ -1,35 +1,37 @@
 .footer {
   display: grid;
-  grid-template-columns: 45% 55%;
+  grid-template-columns: 47% 53%;
   justify-content: space-between;
   max-height: 444px;
   background-color: #0B265A;
   padding: 120px 120px 123px;
+  max-width: 1200px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1355px) {
   .footer {
     grid-template-columns: 30% 70%;
-    padding: 120px 60px 123px;
+    padding: 100px 60px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
     grid-template-columns: 33% 67%;
-    padding: 120px 20px 123px;
+    padding: 80px 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    grid-template-columns: auto;
-    grid-template-rows: repeat(2, auto);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .footer {
-    padding: 20px 0 20px;
+    min-height: 580px;
   }
 }

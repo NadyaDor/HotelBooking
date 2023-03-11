@@ -1,12 +1,8 @@
 .lead__picture{
   display: grid;
-  /* max-height: 685px; */
-  height: 669px;
+  max-height: 669px;
   column-gap: 24px;
   grid-template-columns: repeat(3, 1fr);
-  /* grid-template-rows: repeat(4, minmax(min-content, max-content)); */
-  
   align-items: start;
-  /* align-content: start; */
-}
+ }
 

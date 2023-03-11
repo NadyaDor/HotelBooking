@@ -5,3 +5,21 @@
   padding: 80px 120px;
   align-items: center;
 }
+
+@media screen and (max-width: 1280px) {
+  .choice {
+    padding: 80px 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .choice {
+    padding: 50px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .choice {
+    padding: 30px 10px;
+  }
+}

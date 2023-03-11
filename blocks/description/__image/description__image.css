@@ -1,0 +1,9 @@
+.description__image {
+  max-width: 384px;
+}
+
+@media screen and (max-width: 768px) {
+  .description__image {
+    max-width: 300px
+  }
+}

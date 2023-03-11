@@ -1,10 +1,15 @@
 .choice__link {
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   color: #424F7B;
   padding-top: 32px;
+  text-decoration: none;
   margin: 0;
+}
+
+@media screen and (max-width: 815px) {
+  .choice__link {
+    padding-top: 16px;
+  }
 }

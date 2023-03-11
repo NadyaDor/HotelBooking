@@ -1,8 +1,15 @@
 .benefit__subtitle {
-  font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   color: #848FAC;
-  width: 584px;
+  max-width: 584px;
+}
+
+@media screen and (max-width: 768px) {
+  .benefit__subtitle {
+    min-width: 310px;
+    max-width: 100%;
+    text-align: center;
+  }
 }

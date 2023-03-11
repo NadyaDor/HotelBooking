@@ -29,7 +29,6 @@
 /* BENEFIT */
 @import url(../blocks/benefit/benefit.css);
 @import url(../blocks/benefit/__activities/benefit__activities.css);
-@import url(../blocks/benefit/__product/benefit__product.css);
 @import url(../blocks/benefit/__title/benefit__title.css);
 @import url(../blocks/benefit/__subtitle/benfefit__subtitle.css);
 @import url(../blocks/benefit/__image/benefit__image.css);
@@ -65,6 +64,7 @@
 @import url(../blocks/reviews/__name/reviews__name.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
@@ -74,3 +74,4 @@
 @import url(../blocks/footer/__socials/footer__socials.css);
 @import url(../blocks/footer/__social/footer__social.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__column-link/_span/footer__column-link_span.css);
