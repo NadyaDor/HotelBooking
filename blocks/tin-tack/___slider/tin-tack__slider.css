@@ -1,34 +1,7 @@
-@keyframes one {
 
-  25% {
-    transform: scale(0.5);
-  }
-}
 
-@keyframes two {
-
-  25% {
-    transform: scale(0.5);
-  }
-}
-
-@keyframes three {
-
-  25% {
-    transform: scale(0.5);
-  }
-}
-
-@keyframes four {
-
-  25% {
-    transform: scale(0.5);
-  }
-}
-
-.interior__slider {
+.tin-tack__slider {
   position: absolute;
-  left: 0%;
   width: 7%;
   padding-bottom: 7%;
   background: #FAB047;

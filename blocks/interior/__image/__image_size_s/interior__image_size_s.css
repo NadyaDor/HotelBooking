@@ -1,3 +1,5 @@
 .interior__image_size_s {
   grid-column: 2/3;
+  grid-row: 1/2;
+  width: 100%;
 }

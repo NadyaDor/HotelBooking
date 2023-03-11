@@ -1,0 +1,19 @@
+#one1:checked~#slider1 {
+  animation-name: one1;
+  left: 0;
+}
+
+#two1:checked~#slider1 {
+  animation-name: two1;
+  left: 10%;
+}
+
+#three1:checked~#slider1 {
+  animation-name: three1;
+  left: 20%;
+}
+
+#four1:checked~#slider1 {
+  animation-name: four1;
+  left: 30%;
+}

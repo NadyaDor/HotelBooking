@@ -4,26 +4,24 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   justify-content: space-between;
-  align-items: center;
   padding: 80px 120px 96px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .lead {
     padding: 80px 60px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .lead {
     padding: 50px 20px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead {
     display: flex;
-    flex-direction: column-reverse;
     padding: 30px 10px;
   }
 }

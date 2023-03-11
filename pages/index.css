@@ -40,11 +40,8 @@
 @import url(../blocks/interior/__image/interior__image.css);
 @import url(../blocks/interior/__image/__image_size_l/interior__image_size_l.css);
 @import url(../blocks/interior/__image/__image_size_s/interior__image_size_s.css);
-@import url(../blocks/interior/__tin-tack/interior__tin-tack.css);
-@import url(../blocks/interior/__btn/interior__btn.css);
-@import url(../blocks/interior/__btn/__btn_active/interior__btn_active.css);
-@import url(../blocks/interior/__num/interior__num.css);
-@import url(../blocks/interior/__slider/interior__slider.css);
+@import url(../blocks/interior/__image/__image_size_s/interior__image_size_s1.css);
+@import url(../blocks/interior/__image/__image_size_s/interior__image_size_s2.css);
 /* CHOICE */
 @import url(../blocks/choice/choice.css);
 @import url(../blocks/choice/__title/choice__title.css);
@@ -62,6 +59,15 @@
 @import url(../blocks/reviews/__photo/reviews__photo.css);
 @import url(../blocks/reviews/__review/reviews__review.css);
 @import url(../blocks/reviews/__name/reviews__name.css);
+/* TIN-TACK */
+@import url(../blocks/tin-tack/tin-tack.css);
+@import url(../blocks/tin-tack/_place/tin-tack_place_interior.css);
+@import url(../blocks/tin-tack/_place/tin-tack_place_reviews.css);
+@import url(../blocks/tin-tack/__btn/tin-tack__btn.css);
+@import url(../blocks/tin-tack/__btn/__btn_place/tin-tack__btn_place_interior.css);
+@import url(../blocks/tin-tack/__btn/__btn_place/tin-tack__btn_place_reviews.css);
+@import url(../blocks/tin-tack/__num/tin-tack__num.css);
+@import url(../blocks/tin-tack/___slider/tin-tack__slider.css);
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__column/footer__column.css);

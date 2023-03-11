@@ -1,8 +1,3 @@
-.interior__btn[type="radio"] {
-  position: absolute;
-  right: 1000%;
-}
-
 #one:checked~#slider {
   animation-name: one;
   left: 0;

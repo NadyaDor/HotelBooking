@@ -1,8 +1,10 @@
-.interior__num{
+.tin-tack__num{
   float:left;
+  left: 0%;
   width:5%;
   padding-bottom:5%;
-  background:rgba(255,255,255, .6);
+  background:#FAB047;
+  opacity: .6;
   border-radius:50%;
   cursor:pointer;
   margin-right: 12px;
