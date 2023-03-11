@@ -11,7 +11,7 @@
 @import url(../blocks/header/__button/header__button.css);
 /* CONTTENT */
 /* ---------------------------- */
-/* lead */
+/* LEAD */
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__discription/lead__discription.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -36,12 +36,12 @@
 /* INTERIOR */
 @import url(../blocks/interior/interior.css);
 @import url(../blocks/interior/__title/interior__title.css);
+@import url(../blocks/interior/__galarys/interior__galarys.css);
 @import url(../blocks/interior/__galary/interior__galary.css);
-@import url(../blocks/interior/__image/interior__image.css);
-@import url(../blocks/interior/__image/__image_size_l/interior__image_size_l.css);
-@import url(../blocks/interior/__image/__image_size_s/interior__image_size_s.css);
-@import url(../blocks/interior/__image/__image_size_s/interior__image_size_s1.css);
-@import url(../blocks/interior/__image/__image_size_s/interior__image_size_s2.css);
+@import url(../blocks/interior/__slider/interior__slider.css);
+@import url(../blocks/interior/__slides/interior__slides.css);
+@import url(../blocks/interior/__img/interior__img.css);
+@import url(../blocks/interior/__photo/interior__photo.css);
 /* CHOICE */
 @import url(../blocks/choice/choice.css);
 @import url(../blocks/choice/__title/choice__title.css);

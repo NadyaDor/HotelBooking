@@ -1,0 +1,6 @@
+.interior__slider {
+  height: inherit;
+  overflow: hidden;
+  position: relative;
+  width: inherit;
+}

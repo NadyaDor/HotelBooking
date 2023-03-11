@@ -1,0 +1,5 @@
+.interior__photo {
+  display: grid;
+  grid-template-rows: repeat(3, 193.21px);
+  gap: 2.97px;
+}

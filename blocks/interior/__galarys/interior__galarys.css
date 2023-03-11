@@ -1,0 +1,6 @@
+.interior__galarys {
+  display: flex;
+  flex-direction: row;
+  padding-right: 3px;
+  margin: 0;
+}

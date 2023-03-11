@@ -1,0 +1,16 @@
+/* каждому слайду свое фоновое изображение */
+.interior__img1 {
+  background-image: url(../../../images/Interior_1.svg);
+}
+.interior__img2 {
+  background-image: url(../../../images/Interior_2.svg);
+  background-size: cover;
+}
+.interior__img3 {
+  background-image: url(../../../images/Interior_3.svg);
+  background-size: cover;
+}
+.interior__img4 {
+  background-image: url(../../../images/Interior_4.svg);
+  background-size: cover;
+}

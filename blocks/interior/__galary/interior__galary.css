@@ -1,8 +1,50 @@
 .interior__galary{
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(3, auto);
-  margin: 0;
-  padding: 0;
+  height: 585.58px;
+  position: relative;
+  width: 1090px;
+}
+/* спрятала кнопки */
+.interior__galary > input {
+  display: none;
+}
+/* расположение оберток кнопок */
+.interior__galary .interior__control {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+}
+/* стилизация кнопок, позиционирование */
+.interior__galary label {
+  cursor: pointer;
+  display: inline-block;
+  height: 8px;
+  margin-right: 10px;
+  position: relative;
+  width: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: 2;
+}
+.interior__galary label:after {
+  content: " ";
+  display: block;
+  height: 12px;
+  position: absolute;
+  width: 12px;
+  border-radius: 50%;
+  z-index: 2;
+}
+/* эти селекторы говорят браузеру что выбрано*/
+#point1:checked ~ .interior__control label:nth-of-type(1),
+#point2:checked ~ .interior__control label:nth-of-type(2),
+#point3:checked ~ .interior__control label:nth-of-type(3),
+#point4:checked ~ .interior__control label:nth-of-type(4) {
+  background: #FAB047;
+}
+#point1:checked ~ .interior__slider > .interior__img1,
+#point2:checked ~ .interior__slider > .interior__img2,
+#point3:checked ~ .interior__slider > .interior__img3,
+#point4:checked ~ .interior__slider > .interior__img4 {
+  opacity: 1;
   z-index: 1;
 }

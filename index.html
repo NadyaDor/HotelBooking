@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../vendor/normalize.css">
-  <link rel="stylesheet" href="../pages/index.css">
-  <title>HotelBooking</title>
+  <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
+  <title>HotelBooking</title>
 </head>
 <body class="page">
   <!-- HEADER -->
@@ -66,22 +65,33 @@
     <!--INTERIOR-->
     <section class="interior">
       <h2 class="interior__title">Наши интерьеры</h2>
-      <div class="interior__galary">
-        <img src="./images/image22.jpg" alt="Галерея" class="interior__image interior__image_size_l">
-        <img src="./images/image27.jpg" alt="Галерея" class="interior__image interior__image_size_s">
-        <img src="./images/image26.jpg" alt="Галерея" class="interior__image interior__image_size_s1">
-        <img src="./images/image25.jpg" alt="Галерея" class="interior__image interior__image_size_s2">
-      </div>
-      <div class="tin-tack tin-tack_place_interior">
-        <input class="tin-tack__btn tin-tack__btn_place_interior" name="radio" type="radio" id="one">
-        <label class="tin-tack__num" for="one"></label>
-        <input class="tin-tack__btn tin-tack__btn_place_interior" name="radio" type="radio" id="two" checked>
-        <label class="tin-tack__num" for="two"></label>
-        <input class="tin-tack__btn tin-tack__btn_place_interior" name="radio" type="radio" id="three">
-        <label class="tin-tack__num" for="three"></label>
-        <input class="tin-tack__btn tin-tack__btn_place_interior" name="radio" type="radio" id="four">
-        <label class="tin-tack__num" for="four"></label>
-        <span class="tin-tack__slider tin-tack__slider_place_interior" id="slider"></span>
+      <div class="interior__galarys">
+        <div class="interior__galary">
+          <!-- это кнопки -->
+          <input type="radio" name="interior__slides" id="point1" checked>
+          <input type="radio" name="interior__slides" id="point2">
+          <input type="radio" name="interior__slides" id="point3">
+          <input type="radio" name="interior__slides" id="point4">
+          <div class="interior__slider">
+            <!-- блоки для слайдов -->
+            <div class="interior__slides interior__img1"></div>
+            <div class="interior__slides interior__img2"></div>
+            <div class="interior__slides interior__img3"></div>
+            <div class="interior__slides interior__img4"></div>
+          </div>
+          <div class="interior__control">
+          <!-- атрибутом for связываем каждую подпись с одной из кнопок -->
+            <label for="point1"></label>
+            <label for="point2"></label>
+            <label for="point3"></label>
+            <label for="point4"></label>
+          </div>
+        </div>  
+        <div class="interior__photo">
+          <img src="./images/Interior_2.svg" alt="Галерея">
+          <img src="./images/Interior_3.svg" alt="Галерея">
+          <img src="./images/Interior_4.svg" alt="Галерея">
+        </div>
       </div>
     </section>
     <!--CHOICE-->
@@ -135,8 +145,8 @@
       <h2 class="footer__logo">HotelBooking</h2>
       <p class="footer__logo-text">Загородный отдых с замечательными видами</p>
       <ul class="footer__socials">
-        <li><a class="footer__social link" href="#" target="_blank"><img class="footer__social-icon" src="images/tv.svg" alt="здесь логотип Твиттер"></a></li>
-        <li><a class="footer__social link" href="#" target="_blank"><img class="footer__social-icon" src="images/vk.svg" alt="здесь логотип ВКонтакте"></a></li>
+        <li><a class="footer__social link" href="#" target="_blank"><img src="images/tv.svg" alt="здесь логотип Твиттер"></a></li>
+        <li><a class="footer__social link" href="#" target="_blank"><img src="images/vk.svg" alt="здесь логотип ВКонтакте"></a></li>
       </ul>
     </div>
     <div class="footer__columns">
